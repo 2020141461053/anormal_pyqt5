@@ -37,10 +37,10 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="confirm">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>140</x>
      <y>150</y>
      <width>93</width>
      <height>28</height>
@@ -53,7 +53,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>30</x>
      <y>120</y>
      <width>120</width>
      <height>16</height>
@@ -63,10 +63,10 @@
     <string>修改基本储存路径</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="selectDir">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>30</x>
      <y>80</y>
      <width>93</width>
      <height>28</height>
@@ -76,10 +76,10 @@
     <string>选择文件夹</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="dir">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>180</x>
      <y>80</y>
      <width>172</width>
      <height>28</height>

@@ -26,7 +26,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
@@ -46,7 +46,7 @@
       <item>
        <widget class="QPushButton" name="stop">
         <property name="text">
-         <string>暂停检测</string>
+         <string>暂停</string>
         </property>
        </widget>
       </item>
@@ -74,7 +74,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="output">
+         <widget class="QLabel" name="input">
           <property name="text">
            <string/>
           </property>
@@ -105,7 +105,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="input">
+         <widget class="QLabel" name="output">
           <property name="text">
            <string/>
           </property>
