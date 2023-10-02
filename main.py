@@ -188,6 +188,7 @@ class MainWindow:
         self.ui.input.resize(pixmap.width(), pixmap.height())
 
     # 储存相关
+    #TODO://可以考虑添加一个mysql储存路径？
     def saveResult(self, img, same_one, label):
         # 获取当前日期
         current_date = datetime.datetime.now().strftime("%Y%m%d")
