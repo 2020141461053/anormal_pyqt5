@@ -151,7 +151,9 @@ class MainWindow:
             output_frame = self.yolo.getResult()
             self.detector.predict(output_frame)
             self.update_frame_output(output_frame)
-            self.saveResult(output_frame, same_one, self.detector.getResult())
+            result=self.detector.getResult()
+            self.saveResult(output_frame, same_one, result)
+            self.ui.result.setText("正常" if result else "异常")
             same_one = True
 
     # 获取储存目录（用yaml储存）
